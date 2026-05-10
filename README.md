@@ -5,11 +5,10 @@
 ### Student Details
 
 * **Name:** Mike Hillary Owaga
-* **Admission Number:** —
 * **Course:** Cybersecurity
-* **Date:** ____________________________
+* **Date:** 10/5/2026
 
----
+
 
 # 1. Introduction
 
@@ -23,7 +22,7 @@ The objective of this project was to:
 * Examine TLS handshake packets.
 * Understand how network protocols communicate across different layers.
 
----
+
 
 # 2. Tools Used
 
@@ -34,7 +33,7 @@ The objective of this project was to:
 | Command Prompt / Terminal | Performing DNS lookups            |
 | Internet Connection       | Generating live traffic           |
 
----
+
 
 # 3. Capturing Network Traffic
 
@@ -47,7 +46,7 @@ The following activities were performed:
 3. Visited an HTTPS website to generate TLS traffic.
 4. Applied display filters to isolate packets.
 
----
+
 
 # 4. HTTP Packet Analysis
 
@@ -57,9 +56,6 @@ The following activities were performed:
 http.request.method == "GET"
 ```
 
-## Screenshot of HTTP GET Request
-
-**[INSERT SCREENSHOT HERE]**
 
 ## Observations
 
@@ -89,7 +85,7 @@ The packet also contained important headers such as:
 
 This demonstrates how HTTP traffic can easily be inspected and monitored.
 
----
+
 
 # 5. DNS Packet Analysis
 
@@ -99,9 +95,7 @@ This demonstrates how HTTP traffic can easily be inspected and monitored.
 dns
 ```
 
-## Screenshot of DNS Query and Response
 
-**[INSERT SCREENSHOT HERE]**
 
 ## Observations
 
@@ -141,9 +135,7 @@ The analysis demonstrated how DNS operates as a foundational internet service.
 tls
 ```
 
-## Screenshot of TLS Client Hello and Server Hello
 
-**[INSERT SCREENSHOT HERE]**
 
 ## Observations
 
@@ -185,7 +177,7 @@ Unlike HTTP traffic, HTTPS traffic is encrypted using TLS, making it difficult t
 
 This demonstrated the importance of encryption in protecting sensitive information transmitted over the internet.
 
----
+
 
 # 7. Comparison Between HTTP and HTTPS
 
@@ -197,7 +189,7 @@ This demonstrated the importance of encryption in protecting sensitive informati
 | Data Visibility | Plain Text | Encrypted  |
 | Protocol Used   | HTTP       | HTTP + TLS |
 
----
+
 
 # 8. Challenges Encountered
 
@@ -210,7 +202,7 @@ During the packet analysis process, several challenges were encountered:
 
 These challenges were managed using Wireshark display filters.
 
----
+
 
 # 9. Conclusion
 
@@ -224,7 +216,7 @@ The project demonstrated:
 
 Overall, the project improved understanding of network protocols, packet structures, and the importance of secure communication in cybersecurity.
 
----
+
 
 # 10. References
 
